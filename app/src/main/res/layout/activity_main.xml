@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/luckyegg1280x1920_2"
+    tools:context="com.bignerdranch.android.criminalintent.CrimeActivity">
+
+    <TextView
+        style="@style/MostFonts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_text_view"
+        android:text="@string/no_pokemon_added"
+        android:layout_margin="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/title_text_view"
+        android:id="@+id/transfer_evolve_layout"
+        android:gravity="center_horizontal">
+
+        <TextView
+            style="@style/MostFonts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/transfer_text"
+            android:layout_marginRight="50dp"
+            />
+
+        <TextView
+            style="@style/MostFonts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/evolve_text"
+            android:layout_marginLeft="50dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        style="@style/MostFonts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/transfer_evolve_layout"
+        android:layout_centerInParent="true"
+        android:text="@string/instructions"
+        />
+    <TextView
+        style="@style/MostFonts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_text_2"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/time_text"
+        android:layout_centerInParent="true"
+        android:text=""
+        />
+
+    <TextView
+        style="@style/MostFonts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exp_text"
+        android:layout_margin="20dp"
+        android:layout_below="@id/time_text_2"
+        android:layout_centerInParent="true"
+        />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomProgressBar"
+        android:id="@+id/customProgress"
+        android:layout_below="@id/exp_text"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+    <TextView
+        style="@style/MostFonts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/percentage_text"
+        android:layout_below="@id/customProgress"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        style="@style/MostFonts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recommendation_text"
+        android:layout_margin="10dp"
+        android:layout_below="@id/percentage_text"
+        android:layout_centerInParent="true"
+        />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_button"
+            android:text="@string/add_button"
+            android:layout_margin="10dp"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reset_button"
+            android:text="@string/reset_button"
+            android:layout_margin="10dp"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

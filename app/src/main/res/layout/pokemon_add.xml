@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/luckyegg1280x1920_2"
+              android:gravity="center_vertical"
+              android:focusable="false"
+                android:clickable="true"
+                android:focusableInTouchMode="true">
+
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_select_auto"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp"
+        android:hint="@string/pokemon_select_text"
+        android:gravity="center_horizontal"/>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/num_pokemon_edit"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/num_pokemon_text"
+        android:layout_margin="40dp"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/num_candy_edit"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:hint="@string/num_candy_text"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_button"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/add_activity_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+
+</LinearLayout>

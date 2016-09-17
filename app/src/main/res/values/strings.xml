@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Lucky Egg Calculator</string>
+    <string name="add_button">Add</string>
+    <string name="reset_button">Reset</string>
+    <string name="pokemon_select_text">Select a Pokémon to add</string>
+    <string name="num_pokemon_text"># Pokémon</string>
+    <string name="num_candy_text"># Candies</string>
+    <string name="no_num_candy_toast">Enter number of Candies</string>
+    <string name="no_num_pokemon_toast">Enter number of Pokémon</string>
+    <string name="no_pokemon_selected_toast">Enter a Pokémon</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="pokemon_added_cap">Too many Pokémon Added!</string>
+    <string name="duplicate_pokemon">This Pokémon has already been added. Would you like to overwrite its entry?</string>
+    <string name="confirm">Yes</string>
+    <string name="deny">No</string>
+    <string name="instructions">Add Pokémon to see if it\'s worth using your Lucky Egg!</string>
+
+
+    <string name="title_text_view"><b>Steps to Maximize Exp</b></string>
+    <string name="no_pokemon_added"><b>No Pokémon Added</b></string>
+    <string name="transfer_text"><b>Transfer:\n</b></string>
+    <string name="evolve_text"><b>Evolve:\n</b></string>
+    <string name="time_text_1"><b>Approximate Time Elapsed: \n</b></string>
+    <string name="minute_text">%1$d minutes</string>
+    <string name="minute_second_text">%1$d minutes %2$d seconds</string>
+    <string name="exp_text"><b>Exp Gained:</b> %1$d</string>
+    <string name="positive_recommendation_text">Recommendation: Use your Lucky Egg!</string>
+    <string name="negative_recommendation_text">Recommendation: Catch more Pokémon!</string>
+    <string name="added_pokemon_list"><b>Current Added Pokémon:\n</b></string>
+    <string name="percentage_text"><b>%1$d%% of your Lucky Egg will be used</b></string>
+    <string name="nonexistent_pokemon">This is not a Pokémon</string>
+
+    
+    <string-array name="Pokemon_Array">
+        <item>Caterpie</item>
+        <item>Weedle</item>
+        <item>Pidgey</item>
+
+        <item>Bulbasaur</item>
+        <item>Squirtle</item>
+        <item>Charmander</item>
+        <item>Rattata</item>
+        <item>Nidoran(F)</item>
+        <item>Nidoran(M)</item>
+        <item>Oddish</item>
+        <item>Poliwag</item>
+        <item>Abra</item>
+        <item>Machop</item>
+        <item>Bellsprout</item>
+        <item>Geodude</item>
+        <item>Gastly</item>
+        <item>Eevee</item>
+        <item>Dratini</item>
+
+        <item>Metapod</item>
+        <item>Kakuna</item>
+        <item>Pidgeotto</item>
+        <item>Spearow</item>
+        <item>Ekans</item>
+        <item>Pikachu</item>
+        <item>Sandshrew</item>
+        <item>Clefairy</item>
+        <item>Vulpix</item>
+        <item>Jigglypuff</item>
+        <item>Zubat</item>
+        <item>Paras</item>
+        <item>Venonat</item>
+        <item>Diglett</item>
+        <item>Meowth</item>
+        <item>Psyduck</item>
+        <item>Mankey</item>
+        <item>Growlithe</item>
+        <item>Tentacool</item>
+        <item>Ponyta</item>
+        <item>Slowpoke</item>
+        <item>Magnemite</item>
+        <item>Doduo</item>
+        <item>Seel</item>
+        <item>Grimer</item>
+        <item>Shellder</item>
+        <item>Drowzee</item>
+        <item>Krabby</item>
+        <item>Voltorb</item>
+        <item>Exeggcute</item>
+        <item>Cubone</item>
+        <item>Koffing</item>
+        <item>Rhyhorn</item>
+        <item>Horsea</item>
+        <item>Goldeen</item>
+        <item>Staryu</item>
+        <item>Omanyte</item>
+        <item>Kabuto</item>
+
+        <item>Ivysaur</item>
+        <item>Charmeleon</item>
+        <item>Wartortle</item>
+        <item>Nidorino</item>
+        <item>Nidorina</item>
+        <item>Gloom</item>
+        <item>Poliwhirl</item>
+        <item>Kadabra</item>
+        <item>Machoke</item>
+        <item>Weepinbell</item>
+        <item>Graveler</item>
+        <item>Haunter</item>
+        <item>Dragonair</item>
+
+        <item>Magikarp</item>
+    </string-array>
+</resources>
+
+
